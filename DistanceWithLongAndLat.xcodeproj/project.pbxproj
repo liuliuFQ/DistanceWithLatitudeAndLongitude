@@ -19,6 +19,8 @@
 		0FA886261929ADF700D94DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8860E1929ADF700D94DC3 /* UIKit.framework */; };
 		0FA8862E1929ADF800D94DC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FA8862C1929ADF800D94DC3 /* InfoPlist.strings */; };
 		0FA886301929ADF800D94DC3 /* DistanceWithLongAndLatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8862F1929ADF800D94DC3 /* DistanceWithLongAndLatTests.m */; };
+		0FA8863B1929AE2600D94DC3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8863A1929AE2600D94DC3 /* RootViewController.m */; };
+		0FA8863E1929AE5E00D94DC3 /* DistanceWithLongAndLat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA8863D1929AE5E00D94DC3 /* DistanceWithLongAndLat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		0FA8862B1929ADF700D94DC3 /* DistanceWithLongAndLatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DistanceWithLongAndLatTests-Info.plist"; sourceTree = "<group>"; };
 		0FA8862D1929ADF800D94DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FA8862F1929ADF800D94DC3 /* DistanceWithLongAndLatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistanceWithLongAndLatTests.m; sourceTree = "<group>"; };
+		0FA886391929AE2600D94DC3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0FA8863A1929AE2600D94DC3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0FA8863C1929AE5E00D94DC3 /* DistanceWithLongAndLat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceWithLongAndLat.h; sourceTree = "<group>"; };
+		0FA8863D1929AE5E00D94DC3 /* DistanceWithLongAndLat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceWithLongAndLat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				0FA886191929ADF700D94DC3 /* AppDelegate.h */,
 				0FA8861A1929ADF700D94DC3 /* AppDelegate.m */,
+				0FA886391929AE2600D94DC3 /* RootViewController.h */,
+				0FA8863A1929AE2600D94DC3 /* RootViewController.m */,
+				0FA8863C1929AE5E00D94DC3 /* DistanceWithLongAndLat.h */,
+				0FA8863D1929AE5E00D94DC3 /* DistanceWithLongAndLat.m */,
 				0FA8861C1929ADF700D94DC3 /* Images.xcassets */,
 				0FA886111929ADF700D94DC3 /* Supporting Files */,
 			);
@@ -241,6 +251,8 @@
 			files = (
 				0FA8861B1929ADF700D94DC3 /* AppDelegate.m in Sources */,
 				0FA886171929ADF700D94DC3 /* main.m in Sources */,
+				0FA8863E1929AE5E00D94DC3 /* DistanceWithLongAndLat.m in Sources */,
+				0FA8863B1929AE2600D94DC3 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
